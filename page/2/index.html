@@ -1,255 +1,396 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="Hexo Theme Keep">
+    <meta name="description" content="Hexo Theme Keep">
+    <meta name="author" content="Keep Team">
     
-    <title>Hexo</title>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <title>
+        
+        Keep Theme
+    </title>
     
-    
+<link rel="stylesheet" href="/css/style.css">
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://qingtian125.github.io/page/2/index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:locale" content="en_US">
-<meta property="article:author" content="Qing Tian">
-<meta name="twitter:card" content="summary">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/npm/highlight.js@9.15.8/styles/atom-one-dark.css,npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css,gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css?v=233" crossorigin>
+    <link rel="shortcut icon" href="/images/logo.svg">
     
-    <link rel="stylesheet" href="/lib/mdui_043tiny/css/mdui.css?v=1646295253272">
-    <link rel="stylesheet" href="/lib/iconfont/iconfont.css?v=1646295253272">
-    <link rel="stylesheet" href="/css/style.css?v=1646295253272">
-     
-    
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+
+    <script id="hexo-configurations">
+    let KEEP = window.KEEP || {};
+    KEEP.hexo_config = {"hostname":"qingtian125.github.io","root":"/","language":"en"};
+    KEEP.theme_config = {"toc":{"enable":false,"number":false,"expand_all":false,"init_open":false},"style":{"primary_color":"#0066CC","avatar":"/images/avatar.svg","favicon":"/images/logo.svg","article_img_align":"left","left_side_width":"260px","content_max_width":"920px","hover":{"shadow":false,"scale":false},"first_screen":{"enable":false,"background_img":"/images/bg.svg","description":"Keep writing and Keep loving."},"scroll":{"progress_bar":{"enable":false},"percent":{"enable":false}}},"local_search":{"enable":false,"preload":false},"code_copy":{"enable":false,"style":"default"},"pjax":{"enable":false},"lazyload":{"enable":false},"version":"3.4.5"};
+    KEEP.language_ago = {"second":"%s seconds ago","minute":"%s minutes ago","hour":"%s hours ago","day":"%s days ago","week":"%s weeks ago","month":"%s months ago","year":"%s years ago"};
+  </script>
 <meta name="generator" content="Hexo 6.0.0"></head>
 
-<body class="mdui-drawer-body-left">
+
+<body>
+<div class="progress-bar-container">
     
-    <div id="nexmoe-background">
-        <div class="nexmoe-bg" style="background-image: url(http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg)"></div>
-        <div class="mdui-appbar mdui-shadow-0">
-            <div class="mdui-toolbar">
-                <a mdui-drawer="{target: '#drawer', swipe: true}" title="menu" class="mdui-btn mdui-btn-icon mdui-ripple"><i class="mdui-icon nexmoefont icon-menu"></i></a>
-                <div class="mdui-toolbar-spacer"></div>
-                <!--<a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">search</i></a>-->
-                <a href="/" title="Qing Tian" class="mdui-btn mdui-btn-icon"><img src="http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg" alt="Qing Tian"></a>
+
+    
+</div>
+
+
+<main class="page-container">
+
+    
+
+    <div class="page-main-content">
+
+        <div class="page-main-content-top">
+            <header class="header-wrapper">
+
+    <div class="header-content">
+        <div class="left">
+            
+            <a class="logo-title" href="/">
+                Keep Theme
+            </a>
+        </div>
+
+        <div class="right">
+            <div class="pc">
+                <ul class="menu-list">
+                    
+                        <li class="menu-item">
+                            <a class="active"
+                               href="/"
+                            >
+                                HOME
+                            </a>
+                        </li>
+                    
+                        <li class="menu-item">
+                            <a class=""
+                               href="/archives"
+                            >
+                                ARCHIVES
+                            </a>
+                        </li>
+                    
+                    
+                </ul>
+            </div>
+            <div class="mobile">
+                
+                <div class="icon-item menu-bar">
+                    <div class="menu-bar-middle"></div>
+                </div>
             </div>
         </div>
     </div>
-    <div id="nexmoe-header">
-        <div class="nexmoe-drawer mdui-drawer" id="drawer">
-    <div class="nexmoe-avatar mdui-ripple">
-        <a href="/" title="Qing Tian">
-            <img src="http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg" alt="Qing Tian" alt="Qing Tian">
-        </a>
+
+    <div class="header-drawer">
+        <ul class="drawer-menu-list">
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class="active"
+                       href="/">HOME</a>
+                </li>
+            
+                <li class="drawer-menu-item flex-center">
+                    <a class=""
+                       href="/archives">ARCHIVES</a>
+                </li>
+            
+        </ul>
     </div>
-    <div class="nexmoe-count">
-        <div><span>Articles</span>14</div>
-        <div><span>Tags</span>0</div>
-        <div><span>Categories</span>0</div>
-    </div>
-    <div class="nexmoe-list mdui-list" mdui-collapse="{accordion: true}">
+
+    <div class="window-mask"></div>
+
+</header>
+
+
+        </div>
+
+        <div class="page-main-content-middle">
+
+            <div class="main-content">
+
+                
+                    <div class="home-content-container fade-in-down-animation">
+    <ul class="home-article-list">
         
-        <a class="nexmoe-list-item mdui-list-item mdui-ripple false" href="/" title="回到首页">
-            <i class="mdui-list-item-icon nexmoefont icon-home"></i>
-            <div class="mdui-list-item-content">
-                回到首页
-            </div>
-        </a>
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2022/01/12/%E5%89%91%E5%80%BC01-02/">
+                        剑值01,02
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        剑指01
+题目链接：(https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+解题思路：对于数组中重复数字问题这道题，考察的是Set这种数据结构，HashSet是...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Wed Jan 12 2022 19:26:21 GMT+0800">2022-01-12</span></span>
+        
         
     </div>
-    <aside id="nexmoe-sidebar">
+
+    <a href="/2022/01/12/%E5%89%91%E5%80%BC01-02/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2022/01/11/%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/">
+                        两数相加
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        两数相加
+题目描述见链接：(https://leetcode-cn.com/problems/add-two-numbers)
+解题思路：两个非负整数相加，相加的和除于10，余数作为新的链表的值，产生的进位加到下一次的运算中。这里两个的链表不一定一样...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Jan 11 2022 15:05:09 GMT+0800">2022-01-11</span></span>
+        
+        
+    </div>
+
+    <a href="/2022/01/11/%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2022/01/04/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+                        如何利用hexo和github创建自己的博客
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        安装Git
+ 从Git官网直接下载安装即可。
+安装Hexo
+1.Hexo是基于Node.js的，所以需要先安装Node.js。Node.js的下载地址为：https://nodejs.org/en
+安装完成后，打开命令行窗口，执行node -v检查是...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Jan 04 2022 16:49:32 GMT+0800">2022-01-04</span></span>
+        
+        
+    </div>
+
+    <a href="/2022/01/04/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2022/01/04/qingtian/">
+                        qingtian
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        hello
+
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Jan 04 2022 15:04:15 GMT+0800">2022-01-04</span></span>
+        
+        
+    </div>
+
+    <a href="/2022/01/04/qingtian/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+            <li class="home-article-item">
+
+                
+
+                <h3 class="home-article-title">
+                    <a href="/2022/01/04/hello-world/">
+                        Hello World
+                    </a>
+                </h3>
+
+                <div class="home-article-content markdown-body">
+                    
+                        Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, yo...
+                    
+                </div>
+
+                <div class="home-article-meta-info-container">
+    <div class="home-article-meta-info">
+        <span><i class="fas fa-history"></i>&nbsp;<span class="home-article-date" data-date="Tue Jan 04 2022 14:17:47 GMT+0800">2022-01-04</span></span>
+        
+        
+    </div>
+
+    <a href="/2022/01/04/hello-world/">Read more&nbsp;<i class="fas fa-angle-right"></i></a>
+</div>
+
+            </li>
+        
+    </ul>
+
+    <div class="home-paginator">
+        <div class="paginator">
     
-    <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-search">
-         
-            <form id="search_form" action_e="https://cn.bing.com/search?q=site:nexmoe.com" onsubmit="return search();">
-                <label><input id="search_value" name="q" type="search" placeholder="Search"></label>
-            </form>
-         
+        <a class="prev btn"
+           href="/"
+        >Prev</a>
+    
+
+    
+</div>
+
     </div>
 </div>
-    
-    <div class="nexmoe-widget-wrap">
-    <div class="nexmoe-widget nexmoe-social">
-        <a class="mdui-ripple" href="https://jq.qq.com/?_wv=1027&k=5CfKHun" target="_blank" mdui-tooltip="{content: 'QQ群'}" style="color: rgb(249, 174, 8);background-color: rgba(249, 174, 8, .1);">
-            <i class="nexmoefont icon-QQ"></i>
-        </a><a class="mdui-ripple" href="https://space.bilibili.com/20238211" target="_blank" mdui-tooltip="{content: '哔哩哔哩'}" style="color: rgb(231, 106, 141);background-color: rgba(231, 106, 141, .15);">
-            <i class="nexmoefont icon-bilibili"></i>
-        </a><a class="mdui-ripple" href="https://github.com/nexmoe/" target="_blank" mdui-tooltip="{content: 'GitHub'}" style="color: rgb(25, 23, 23);background-color: rgba(25, 23, 23, .15);">
-            <i class="nexmoefont icon-github"></i>
-        </a>
-    </div>
-</div>
-    
-    
 
-    
-    
-    
-</aside>
-    <div class="nexmoe-copyright">
-        &copy; 2022 Qing Tian
-        Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
-        & <a href="https://github.com/theme-nexmoe/hexo-theme-nexmoe" target="_blank">Nexmoe</a>
+
+                
+            </div>
+
+        </div>
+
+        <div class="page-main-content-bottom">
+            <footer class="footer">
+    <div class="info-container">
+        <div class="copyright-info info-item">
+            &copy;
+            
+              <span>2020</span>
+              -
+            
+            2022&nbsp;<i class="fas fa-heart icon-animate"></i>&nbsp;<a href="/">Keep Team</a>
+        </div>
+        
+        <div class="theme-info info-item">
+            Powered by <a target="_blank" href="https://hexo.io">Hexo</a>&nbsp;|&nbsp;Theme&nbsp;<a class="theme-version" target="_blank" href="https://github.com/XPoet/hexo-theme-keep">Keep v3.4.5</a>
+        </div>
+        
         
     </div>
-</div><!-- .nexmoe-drawer -->
+</footer>
+
+        </div>
     </div>
-    <div id="nexmoe-content">
-        <div class="nexmoe-primary">
-            <section class="nexmoe-posts">
+
     
-    <div class="nexmoe-post">
-        <a href="/2022/01/11/%E4%B8%A4%E6%95%B0%E7%9B%B8%E5%8A%A0/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
-                    <img data-src="http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg" data-sizes="auto" alt="两数相加" class="lazyload">
-                    <h1>两数相加</h1>
-                </div>
-            
-        </a>
 
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2022年01月11日</a>
-        </div>
+    <div class="right-bottom-side-tools">
+        <div class="side-tools-container">
+    <ul class="side-tools-list">
+        <li class="tools-item tool-font-adjust-plus flex-center">
+            <i class="fas fa-search-plus"></i>
+        </li>
 
-        <article>
-            
-                <p><em>两数相加</em></p>
-<p>题目描述见链接：(<a...
-            
-        </article>
+        <li class="tools-item tool-font-adjust-minus flex-center">
+            <i class="fas fa-search-minus"></i>
+        </li>
+
+        <li class="tools-item tool-expand-width flex-center">
+            <i class="fas fa-arrows-alt-h"></i>
+        </li>
+
+        <li class="tools-item tool-dark-light-toggle flex-center">
+            <i class="fas fa-moon"></i>
+        </li>
+
+        <!-- rss -->
+        
+
+        
+            <li class="tools-item tool-scroll-to-top flex-center">
+                <i class="fas fa-arrow-up"></i>
+            </li>
+        
+
+        <li class="tools-item tool-scroll-to-bottom flex-center">
+            <i class="fas fa-arrow-down"></i>
+        </li>
+    </ul>
+
+    <ul class="exposed-tools-list">
+        <li class="tools-item tool-toggle-show flex-center">
+            <i class="fas fa-cog fa-spin"></i>
+        </li>
+        
+    </ul>
+</div>
+
     </div>
+
     
-    <div class="nexmoe-post">
-        <a href="/2022/01/04/%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8hexo%E5%92%8Cgithub%E5%88%9B%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
-                    <img data-src="http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg" data-sizes="auto" alt="如何利用hexo和github创建自己的博客" class="lazyload">
-                    <h1>如何利用hexo和github创建自己的博客</h1>
-                </div>
-            
-        </a>
 
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2022年01月04日</a>
-        </div>
-
-        <article>
-            
-                <p><em>安装Git</em></p>
-<p> 从Git官网直接下载安装即可。</p>
-<p><em>安装Hexo</em></p>
-<p>1.Hexo是基于Node.js的，所以需要先安装Node.js。Node.js的下载地址为：<a...
-            
-        </article>
-    </div>
-    
-    <div class="nexmoe-post">
-        <a href="/2022/01/04/qingtian/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
-                    <img data-src="http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg" data-sizes="auto" alt="qingtian" class="lazyload">
-                    <h1>qingtian</h1>
-                </div>
-            
-        </a>
-
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2022年01月04日</a>
-        </div>
-
-        <article>
-            
-                <p><strong>hello</strong></p>
-
-            
-        </article>
-    </div>
-    
-    <div class="nexmoe-post">
-        <a href="/2022/01/04/hello-world/">
-            
-                <div class="nexmoe-post-cover mdui-ripple" style="padding-bottom: 66.66666666666666%;"> 
-                    <img data-src="http://up.deskcity.org/pic_source/df/89/41/df8941ac46a38a6bda5fbe75f74b9510.jpg" data-sizes="auto" alt="Hello World" class="lazyload">
-                    <h1>Hello World</h1>
-                </div>
-            
-        </a>
-
-        <div class="nexmoe-post-meta nexmoe-rainbow">
-            <a><i class="nexmoefont icon-calendar-fill"></i>2022年01月04日</a>
-        </div>
-
-        <article>
-            
-                <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more...
-            
-        </article>
-    </div>
-    
-</section>
-
-    <nav class="nexmoe-page-nav">
-        <a class="extend prev" rel="prev" href="/"><i class="nexmoefont icon-left"></i></a><a class="page-number" href="/">1</a><span class="page-number current">2</span>
-    </nav>
-  
-            <div class="nexmoe-post-right">
-              <div class="nexmoe-fixed">
-                  <div class="nexmoe-tool"> 
-                    
-                      
-                    
-                      <a href="#nexmoe-content" class="toc-link" aria-label="回到顶部" title="top"><button class="mdui-fab mdui-ripple"><i class="nexmoefont icon-caret-top"></i></button></a>
-                  </div>
-              </div>
-            </div>
-        </div>
-    </div>
-     
-    <div id="nexmoe-search-space">
-        <div class="search-container">
-            <div class="search-header">
-                <div class="search-input-container">
-                    <input class="search-input" type="text" placeholder="Search" oninput="sinput();">
-                </div>
-                <a class="search-close" onclick="sclose();">×</a>
-            </div>
-            <div class="search-body"></div>
-        </div>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/combine/npm/lazysizes@5.1.0/lazysizes.min.js,npm/mdui@0.4.3/dist/js/mdui.min.js?v=1"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
- 
-
-<script async src="/js/app.js?v=1646295253272"></script>
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js"></script>
-<script>
-	$(".justified-gallery").justifiedGallery({
-		rowHeight: 160,
-		margins: 10,
-	});
-</script>
+    <div class="image-viewer-container">
+    <img src="">
+</div>
 
 
     
 
+</main>
 
+
+
+
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/main.js"></script>
+
+<script src="/js/header-shrink.js"></script>
+
+<script src="/js/back2top.js"></script>
+
+<script src="/js/dark-light-toggle.js"></script>
+
+
+
+
+
+
+
+
+<div class="post-scripts">
+    
+</div>
 
 
 
 </body>
-
 </html>
